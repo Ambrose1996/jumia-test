@@ -97,7 +97,7 @@ nav label:hover{
 }
 .dropdown{
     background-color: rgb(252, 252, 252);
-    max-width: 10rem;
+    max-width: 15rem;
     margin-right: 50px;
     /* margin: 2rem; */
 }
@@ -105,13 +105,26 @@ nav label:hover{
     box-sizing: border-box;
 }
 .select {
-    width: 95px;
+    width: 150px;
     background-color:rgb(246, 248, 248);
     color:black;
     display: flex;
-    justify-content: center;
-    align-self: center;
+    justify-content:space-between;
+    align-items: center;
     padding: 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background 0.3s;   
+}
+.selec1 {
+    width: 70px;
+    background-color:rgb(246, 248, 248);
+    color:black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.5em;
+    flex-wrap: nowrap;
     border-radius: 0.5em;
     cursor: pointer;
     transition: background 0.3s;   
@@ -120,8 +133,15 @@ nav label:hover{
     border: 2px;
     box-shadow: 0 0 0.8em;
 }
-
 .select:hover {
+    color: orange;
+    background-color: rgb(219, 217, 217);
+}
+.select1-clicked {
+    border: 2px;
+    box-shadow: 0 0 0.8em;
+}
+.select1:hover {
     color: orange;
     background-color: rgb(219, 217, 217);
 }
