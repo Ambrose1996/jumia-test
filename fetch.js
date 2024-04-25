@@ -21,7 +21,7 @@ fetch(url)
   for(let product of products){
     out +=`
     <div id="pro">
-        <div id="star"><img src="/asset/yellow star.png" alt="" width="18"> <img src="/asset/yellow star.png" alt="" width="18"> <img src="/asset/yellow star.png" alt="" width="18"> <img src="/asset/yellow star.png" alt="" width="18"></div>
+        <div id="star"><img src="yellow star.png" alt="" width="18"> <img src="yellow star.png" alt="" width="18"> <img src="yellow star.png" alt="" width="18"> <img src="yellow star.png" alt="" width="18"></div>
         <div id="main-product-content>
         <div id="title"> ${product.title} </div><br>
         <div id="cate"> ${product.category} </div>

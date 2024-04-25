@@ -10,13 +10,18 @@
     flex-direction: column;
 }
 .topbar{
-    background-color: aqua;
     width: 100rem;
     height: 4rem;
     display:contents;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
+}
+.nav-cart{
+    display: flex;
+}
+.nav-cart:hover{
+    color: orange;
 }
 .ppart{
     width: 79rem;
@@ -87,7 +92,7 @@ hr{
     margin-left: 4%;
 }
 #off-store{
-    background-color: aquamarine;
+    background-color:none;
     width: 50%;
     display: flex;
 }
@@ -215,10 +220,10 @@ hr{
     width: 20%;
     height: 10px;
     margin-left: -10px;
-    background-color: white;
+    background-color: rgb(218, 213, 213);
     display: flex;     
     border-radius: 100px;
-    color: white;
+    color: rgb(218, 213, 213);
     font-size: 2px;
 }
 #all-price {
